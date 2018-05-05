@@ -1,0 +1,76 @@
+.navbarcss {
+  background-color: #608ba1;
+}
+
+/* .navcolor {
+  background-color: #9704A0;
+} */
+
+.bolt {
+  text-decoration: none;
+  color: red;
+}
+
+.carouselbackground {
+    background-color: #608ba1;
+}
+
+.carousel-inner {
+  width: 1100px;
+  height: 480px;
+  background-color: #608ba1;
+  vertical-align: center;
+}
+
+.goaltext {
+  color: #8d61a3;
+}
+
+.whatsnext {
+  color: #8d61a3;
+}
+
+.arrived {
+   color: #8d61a3;
+}
+
+.firstrow {
+  width: 350px;
+  height: 155px;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+.projectsbackground {
+  background-color: #8d61a3;
+}
+
+#projectsbg {
+  background-color: #8d61a3;
+}
+ #myImg {
+   width: 300px;
+   height: 200px;
+ }
+
+.four {
+  background-color: gray;
+}
+
+.cardsection {
+  background-color: #608ba1;
+}
+
+.recentposts {
+  background-color: #8d61a3;
+}
+
+.footer {
+  background-color: gray;
+}
+
+#footlinkcolor {
+  color: red;
+}

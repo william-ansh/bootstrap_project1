@@ -1,0 +1,365 @@
+<!-- Instructs browser that this is a html file -->
+<!DOCTYPE html>
+
+<html lang="en" dir="ltr">
+
+  <head>
+    <meta charset="utf-8">
+
+    <title></title>
+
+<!-- Bootstrap CDN -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+
+<!-- Fontawesome stylesheet -->
+<link rel="stylesheet" href="css/fontawesome-all.css">
+
+<!-- Reset stylesheet "Normalize" -->
+<link rel="stylesheet" href="css/reset.css">
+
+<!-- Main css stylesheet  -->
+<link rel="stylesheet" href="css/main.css">
+
+
+  </head>
+
+<body>
+
+<!-- This is the nav bar -->
+<div class="navbarcss">
+  <div class="container text-center bluefade">
+      <nav class="navbar navbar-expand-lg navbar-light p-3 navcolor">
+        <a class="bolt pr-2" href="#"><i class="fas fa-bolt"></i></a>
+        <a class="navbar-brand" href="#">3_24_18</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Members</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"><button type="button" class="btn btn-dark " id="navbutton">Portfolios</button></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Interests</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Blogs</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+  </div>
+</div>
+
+<!-- This is the image carousel -->
+<div class="carouselbackground">
+  <div id="carouselExampleIndicators" class="carousel slide container" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="carousel-item active text-center">
+        <h1 class="d-inline goaltext">THE GOAL IS IN SIGHT.</h1>
+        <a href="#"><img class="d-inline w-25 ml-auto" src="img/galaxygirl.png" alt="First slide"></a>
+      </div>
+      <div class="carousel-item text-center whatsnext">
+        <h1 class="d-inline whatsnext">WHAT'S NEXT?</h1>
+        <a href="#"><img class="d-inline w-50 ml-auto p-5" src="img/comingsoon.png" alt="Second slide"></a>
+      </div>
+      <div class="carousel-item text-center">
+        <h1 class="d-inline arrived">HAVE WE ARRIVED?</h1>
+        <a href="#"><img class="d-inline w-50 ml-auto p-5" src="img/arrival.png" alt="Third slide"></a>
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+</div>
+
+<!-- This is the first div class row -->
+  <div class="container">
+    <div class="row">
+      <div class="col-4 ml-auto p-3">
+          <a class="text-dark" href="#" target="_blank">
+          <img class="d-block w-50 m-auto firstrow" src="img/webdesign.png">
+          <h3 class="text-center">Web Design</h3>
+          <p class="text-center">Utilizing our User-Friendly approach, we use our design skills and colaboration with designers to create an experience for users of all skill levels.</P>
+          </a>
+      </div>
+      <div class="col-4 p-3">
+        <a class="text-dark" href="#" target="_blank">
+        <img class="d-block w-50 m-auto firstrow" src="img/development.png">
+        <h3 class="text-center">Development</h3>
+        <p class="text-center">Understanding the appropriate steps in development, we capitalize on our Analytical approach to develop stable and userfriendly sites and to provide the tools for easy and accessible content updates.</P>
+        </a>
+      </div>
+      <div class="col-4 mr-auto p-3">
+        <a class="text-dark" href="#" target="_blank">
+        <img class="d-block w-50 m-auto firstrow" src="img/tools.png">
+        <h3 class="text-center">Tools for Success</h3>
+        <p class="text-center">Recognizing the rapid advancements in technology, we employ relevant and up-to-date tools to communicate with clients and to construct our development projects.</P>
+        </a>
+      </div>
+    </div>
+  </div>
+
+<!-- This is a ul with div rows of images -->
+<div id="projectsbg">
+  <div class="container projectsbackground">
+    <h1 class="text-center pt-5">RECENT PROJECTS WE HAVE COMPLETED</h1>
+    <p class="text-center col-6 pb-5 m-auto">Our team is dedicated to providing the best experience possible by utilizing our talents and skills to create first-class projects.</p>
+    <ul>
+      <li class="d-inline text-dark px-5"><a class="text-center" href="#" target="_blank"><button type="button" class="btn btn-light">All</button></a>
+      </li>
+      <li class="d-inline px-5"><a class="text-center" href="#" target="_blank"><button type="button" class="btn btn-outline-light">WEB</button></a>
+      </li>
+      <li class="d-inline px-5"><a class="text-center text-light" href="#" target="_blank">MOBILE</a>
+      </li>
+      <li class="d-inline px-5"><a class="text-center text-light" href="#" target="_blank">LIFE</a>
+      </li>
+      <li class="d-inline px-5"><a class="text-center text-light" href="#" target="_blank">DESIGNS</a>
+      </li>
+      <li class="d-inline px-5"><a class="text-center text-light" href="#" target="_blank">PROFESSIONAL</a>
+      </li>
+    </ul>
+  </div>
+
+
+  <div class="maker pt-5">
+    <div class="container">
+      <div class="row">
+        <div class="d-inline col-4 p-4">
+          <img id="myImg" src="img/projects1.png" alt="Bugatti L'Or Blanc">
+        </div>
+        <div class="d-inline col-4 p-4">
+          <img id="myImg" src="img/projects2.png" alt="Bugatti L'Or Blanc">
+        </div>
+        <div class="d-inline col-4 p-4">
+          <img id="myImg" src="img/projects3.png" alt="Bugatti L'Or Blanc">
+        </div>
+        <div class="d-inline col-4 p-4">
+          <img id="myImg" src="img/projects4.png" alt="Bugatti L'Or Blanc">
+        </div>
+        <div class="d-inline col-4 p-4">
+          <img id="myImg" src="img/projects5.png" alt="Bugatti L'Or Blanc">
+        </div>
+        <div class="d-inline col-4 p-4">
+          <img id="myImg" src="img/projects6.png" alt="Bugatti L'Or Blanc">
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="projectsbackground">
+  <div id="projectsbg" class="container">
+    <div class="row">
+      <div class="m-auto p-5">
+        <button type="button" class="btn btn-light">SHOW MORE</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- The fourth section with image, heading, p, and button -->
+  <div class="four">
+    <div class="container py-5">
+      <div class="row">
+        <div class="col-3">
+          <img class="pr-5" id="myImg" src="img/codify.png">
+        </div>
+        <div class="col-9 pl-5">
+          <h2>Where We Learned</h2>
+          <p>Codify Academy is founded upon the desire to help anyone from any walk of life become a Developer in as little time as possible. From humble beginings to utilizing experienced and dedicated teachers, at Codify Academy anyone can become part of the family of success if they dedicate themselves.</p>
+          <a href="#" alt="blah" target="_blank">
+            <button type="button" class="btn btn-success">LEARN MORE</button>
+          </a>
+        </div>
+      </div>
+    </div>
+
+  <hr class="container">
+
+    <div class="container py-5">
+      <div class="row">
+        <div class="col-9">
+          <h2>Meet Our Teacher</h2>
+          <p>Evan Winston has vast experience as both an illustrator and developer. Although his career has taken him across the US, he finds himself in San Francisco, California educating the next generation of Front End Developers.</p>
+          <a href="#" alt="blah" target="_blank">
+            <button type="button" class="btn btn-success">LEARN MORE</button>
+          </a>
+        </div>
+        <div class="col-3">
+          <img class="pl-5" id="myImg" src="img/evan.jpg">
+        </div>
+      </div>
+    </div>
+  </div>
+
+<!-- The card section of the page -->
+  <div class="cardsection">
+    <div class="container pt-4 text-center">
+      <h1>MEET OUR TEAM</h1>
+      <p>Through hard work and dedication, all of us have grown into skilled front end developers!</p>
+    </div>
+
+    <div class="container p-5">
+      <div class="row">
+
+          <div class="card col-4" style="width: 18rem;">
+            <img id="myImg" class="card-img-top d-block mx-auto" src="img/william.jpg" alt="Card image cap">
+            <div class="card-body text-center">
+              <h5 class="card-title">William Shilton</h5>
+              <p class="card-text">Software development of anykind is not something that I would have ever imagined myself doing. But I'm Lovin' It!</p>
+              <a href="#" class="btn btn-primary">VISIT PROFILE</a>
+            </div>
+          </div>
+
+          <div class="card col-4" style="width: 18rem;">
+            <img id="myImg" class="card-img-top d-block mx-auto" src="img/nate.jpg" alt="Card image cap">
+            <div class="card-body text-center">
+              <h5 class="card-title">Nate Denys</h5>
+              <p class="card-text">I graduated from UCI. I like everything related to aviation, fishing, Game of Thrones, blueberries, and BMW E30's.</p>
+              <a href="#" class="btn btn-primary">VISIT PROFILE</a>
+            </div>
+          </div>
+
+          <div class="card col-4" style="width: 18rem;">
+            <img id="myImg" class="card-img-top d-block mx-auto" src="img/evan.jpg" alt="Card image cap">
+            <div class="card-body text-center">
+              <h5 class="card-title">Evan Winston</h5>
+              <p class="card-text">I enjoy coffee, Chipotle, and sometimes I imagine myself to be my favorite character, an FDA Inspector.</p>
+              <a href="#" class="btn btn-primary">VISIT PROFILE</a>
+            </div>
+          </div>
+
+      </div>
+    </div>
+  </div>
+
+<!-- This is the recent posts section -->
+  <div class="recentposts p-5">
+    <div class="container text-center">
+      <h1>RECENT POSTS</h1>
+      <p>We, as developers, have the desire to promote the open source sharing of information for the advancement of the individual and mankind as a whole.</p>
+    </div>
+
+    <div class="container p-5 text-center">
+      <div class="row">
+        <div class="card col-4" style="width: 18rem;">
+          <img id="myImg" class="card-img-top d-block mx-auto" src="img/opensrc1.jpg" alt="Card image cap">
+          <div class="card-body">
+            <p class="card-text">USING BOOTSTRAP TO STREAMLINE YOUR WEB DEVELOPMENT.</p>
+          </div>
+        </div>
+
+        <div class="card col-4" style="width: 18rem;">
+          <img id="myImg" class="card-img-top d-block mx-auto" src="img/opensrc2.jpg" alt="Card image cap">
+          <div class="card-body">
+            <p class="card-text">WHAT CAN YOU DO WITH JAVASCRIPT?</p>
+          </div>
+        </div>
+
+        <div class="card col-4" style="width: 18rem;">
+          <img id="myImg"class="card-img-top d-block mx-auto" src="img/opensrc3.jpg" alt="Card image cap">
+          <div class="card-body">
+            <p class="card-text">FROM CSS TO JAVASCRIPT, HOW CAN YOU LEARN TO CODE WITH BOTH?</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+      <div class="container text-center">
+        <a href="#" target="_blank">
+          <button type="button" class="btn btn-light">SEE MORE</button>
+        </a>
+      </div>
+  </div>
+
+<!-- This is the footer section of the page -->
+  <div class="footer">
+    <div class="container text-center p-5">
+      <h1>CONTACT US</h1>
+      <p>Fill out the form below with your inquiry and a representative will respond within 24 hours.</p>
+    </div>
+
+        <!-- Form Section -->
+    <div class="container text-center">
+      <form class="col-6 m-auto">
+      <div class="pb-4">
+        <input class="form-control" type="text" placeholder="Name">
+      </div>
+        <input class="form-control" type="text" placeholder="Email">
+        <div class="form-group">
+          <label for="exampleFormControlTextarea1"></label>
+          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Message"></textarea>
+        </div>
+      </form>
+    </div>
+
+    <div class="container text-center pt-4 pb-5">
+      <a href="#" target="_blank">
+        <button type="button" class="btn btn-light">SUBMIT</button>
+      </a>
+    </div>
+
+    <hr class="container">
+
+    <div class="container">
+      <div class="row">
+        <div class="col-3 text-left">
+          <a id="footlinkcolor" href="#" alt="twitter" target="_blank">
+            <i class="fab fa-twitter"></i>
+          </a>
+          <a id="footlinkcolor" href="#" alt="facebook" target="_blank">
+            <i class="fab fa-facebook-f"></i>
+          </a>
+          <a id="footlinkcolor" href="#" alt="github" target="_blank">
+            <i class="fab fa-github-alt"></i>
+          </a>
+          <a id="footlinkcolor" href="#" alt="codepen" target="_blank">
+            <i class="fab fa-codepen"></i>
+          </a>
+        </div>
+        <div class="col-9 text-right">
+          <p>
+            <span class="border-right border-dark p-2">
+              <a id="footlinkcolor" href="#" alt="William Shilton Web Design" target="_blank">William Shilton Web Design</a> Copyright &copy; 2018.
+            </span>
+            <span class="pl-2">
+              Powered By <a id="footlinkcolor" href="#" alt="work" target="_blank">William</a>
+            </span>
+          </p>
+        </div>
+
+      </div>
+    </div>
+
+
+
+<!-- Javascript Custom Script -->
+<script type="text/javascript" src="js/main.js"></script>
+
+<!-- Javascript Script Links -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
